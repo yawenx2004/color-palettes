@@ -1,0 +1,62 @@
+:root {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+}
+
+.lhs {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  gap: 0.5em;
+}
+
+.lhs .color {
+  height: 4em;
+  background-color: rgb(228, 234, 240);
+  border-radius: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+}
+
+input, button {
+  background: none;
+  border: none;
+  text-align: center;
+}
+
+.up-down {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 4em;
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
